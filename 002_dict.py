@@ -27,9 +27,9 @@ print(my_dict)
 
 
 ###################################################
-# Item      Mutable      Ordered     define      Duplicates
+# Item      Mutable      Ordered     define      Duplicates     Access
 
-# List      Yes             Yes         []          Yes
-# Dict      Yes             Yes         {}          No
-# Tuple     No              Yes         ()          Yes
-# set       No              No          ()          No
+# List      Yes             Yes         []          Yes         index
+# Dict      Yes             Yes         {}          No          keys
+# Tuple     No              Yes         ()          Yes         index
+# set       No              No          ()          No          -
