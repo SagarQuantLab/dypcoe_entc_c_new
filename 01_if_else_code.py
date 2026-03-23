@@ -17,3 +17,9 @@ if isinstance(my_age, int):
     age_status = True
     
 print(age_status)
+
+
+my_string = "MadaM"
+reveresed_string = my_string[::-1]
+if my_string == reveresed_string:
+    print(f"{my_string} is a paladrome")
